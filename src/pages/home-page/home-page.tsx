@@ -1,12 +1,11 @@
-import { Header } from '@components';
-import styles from './home-page.module.scss';
+import { NavigationLayout } from '@layouts';
 
 export const HomePage = () => {
   return (
-    <section className={styles.wrapper}>
-      <div className={styles.container}>
-        <Header />
+    <NavigationLayout>
+      <div className='wrapper'>
+        <div className='container'>123</div>
       </div>
-    </section>
+    </NavigationLayout>
   );
 };
