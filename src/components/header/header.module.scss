@@ -1,0 +1,28 @@
+.wrapper {
+  @include container;
+
+  .header {
+    margin-inline: 20px;
+    padding-block: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid var(--black-10);
+
+    .logo {
+      @include body-xl(var(--clash-display-font));
+      color: var(--black);
+    }
+
+    .nav {
+      align-items: center;
+
+      ul {
+        display: flex;
+        gap: 16px;
+      }
+    }
+  }
+}
