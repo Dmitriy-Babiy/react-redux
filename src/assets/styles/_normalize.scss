@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+input {
+  appearance: none;
+}
+
+button {
+  cursor: pointer;
+
+  border: none;
+  background: none;
+  appearance: button;
+  -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
+  -webkit-tap-highlight-color: transparent;
+
+  &:disabled {
+    cursor: default;
+  }
+
+  &:active:focus {
+    outline: none;
+  }
+}
+
+fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+}
+
+ul {
+  list-style-type: none;
+}

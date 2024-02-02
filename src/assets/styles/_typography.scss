@@ -1,0 +1,89 @@
+:root {
+  --satoshi-font: 'Satoshi', sans-serif;
+  --clash-display-font: 'Clash Display', sans-serif;
+  --default-font-family: var(--satoshi-font);
+}
+
+@mixin fontBase($fontFamily: var(--default-font-family)) {
+  font: {
+    family: $fontFamily;
+    style: normal;
+  }
+}
+
+@mixin body-xxl($fontFamily: var(--default-font-family)) {
+  @include fontBase($fontFamily);
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 68px;
+}
+
+@mixin body-xxl-bold($fontFamily: var(--default-font-family)) {
+  @include fontBase($fontFamily);
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 68px;
+}
+
+@mixin body-xl($fontFamily: var(--default-font-family)) {
+  @include fontBase($fontFamily);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@mixin body-xl-medium($fontFamily: var(--default-font-family)) {
+  @include fontBase($fontFamily);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@mixin body-xl-bold($fontFamily: var(--default-font-family)) {
+  @include fontBase($fontFamily);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@mixin body-l($fontFamily: var(--default-font-family)) {
+  @include fontBase($fontFamily);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+@mixin body-l-medium($fontFamily: var(--default-font-family)) {
+  @include fontBase($fontFamily);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+@mixin body-l-bold($fontFamily: var(--default-font-family)) {
+  @include fontBase($fontFamily);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+}
+
+@mixin body-m($fontFamily: var(--default-font-family)) {
+  @include fontBase($fontFamily);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@mixin body-m-medium($fontFamily: var(--default-font-family)) {
+  @include fontBase($fontFamily);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@mixin body-m-bold($fontFamily: var(--default-font-family)) {
+  @include fontBase($fontFamily);
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+}

@@ -1,0 +1,11 @@
+html {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--satoshi-font), sans-serif;
+  color: var(--text-color);
+}
+
+@mixin container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
