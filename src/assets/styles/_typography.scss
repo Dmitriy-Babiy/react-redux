@@ -28,21 +28,21 @@
 @mixin body-xl($fontFamily: var(--default-font-family)) {
   @include fontBase($fontFamily);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 28px;
 }
 
 @mixin body-xl-medium($fontFamily: var(--default-font-family)) {
   @include fontBase($fontFamily);
   font-weight: 600;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 28px;
 }
 
 @mixin body-xl-bold($fontFamily: var(--default-font-family)) {
   @include fontBase($fontFamily);
   font-weight: 800;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 28px;
 }
 

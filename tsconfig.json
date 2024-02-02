@@ -25,6 +25,7 @@
       "@lib/*": ["./src/lib/*"],
       "@hooks/*": ["./src/hooks/*"],
       "@store/*": ["./src/store/*"],
+      "@pages/*": ["./src/pages/*"],
       "@assets/*": ["./src/assets/*"],
       "@router/*": ["./src/router/*"],
       "@components/*": ["./src/components/*"]
